@@ -3,10 +3,12 @@ import Layout from '../layouts/Layout.astro';
 const pageTitle = "Milky-Way";
 ---
 <Layout pageTitle={pageTitle}>
-    <div class="intro">
-        <div>
+    <div class="gif">
+        <div class="intro-text">
             <h1>Hello, I'm Chloe.</h1>
-            <small>Student | Amateur Programmer</small>
+            <small>Student</small>
+            <small>Programmer</small>
+            <small>Procrastinator</small>
         </div>
         <div>
         <img class="image" width="200" height="200" alt="Chloe-pfp" src="/chloe (6).png"/>
@@ -26,14 +28,11 @@ const pageTitle = "Milky-Way";
     </p>
 </Layout>
 <style>
-    .intro {
+    .gif {
         display: flex;
-        padding-top: 20px;
     }
     .image {
         margin-left: 20px;
-        box-shadow: 0 0 5px 5px #D9C27E;
-        border-radius: 50%;
     }
     a {
         color: #D98E73;
