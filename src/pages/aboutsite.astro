@@ -4,7 +4,31 @@ const pageTitle = "About-Site";
 ---
 <Layout pageTitle={pageTitle}>
     <div class="gif">
-        <img width="300" height="259" alt="RaccoonLaptopGif" src="/laptop.webp"/>
     </div>
     <h2>About This Site</h2>
+    <p>
+        I have so many assignments due tomorrow... 
+    </p>
+    <p>
+        This website was built using the Astro framework and is a fork of 
+        <a href="https://github.com/ttomczak3/milky-way">Milky-Way</a>, an open-source Astro template. 
+    </p>
+    <p>
+        The color scheme was inspired by two of my favorite TV shows of all time, 
+        Normal People and Master of None. Work in Progress...
+    </p>
 </Layout>
+<style>
+    div {
+        text-align: center;
+    }
+    a {
+        color: #D98E73;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline #D98E73;
+        text-decoration-thickness: 1px;
+        text-underline-offset: 6px;
+    }
+</style>

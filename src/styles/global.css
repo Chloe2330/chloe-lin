@@ -1,7 +1,7 @@
 /* Global styles */
 html {
-    background-color: #1e1e2e;
-    color: #fdebf3;
+    background-color: #2A4359;
+    color: #F2F0F0;
 }
 
 body {
@@ -13,20 +13,21 @@ body {
 /* Headings */
 h1, h2 {
     font-family: 'Pacifico', cursive;
-    font-weight: normal;
 }
 
 h1 {
+    font-weight: 300;
     font-size: 2.6em;
     margin: 0;
     margin-bottom: 5px;
 }
 
 h2 {
-    text-decoration: underline #375a7f;
+    font-weight: lighter;
+    text-decoration: underline #F2F0F0;
     text-decoration-thickness: 4px;
     text-underline-offset: 6px;
-    font-size: 2.1em;
+    font-size: 1.8em;
     margin-bottom: 0;
 }
 
@@ -36,7 +37,6 @@ p {
     font-size: 1.1em;
     hyphens: auto;
     line-height: 1.5;
-    text-indent: 1em;
 }
 
 
@@ -59,12 +59,12 @@ p {
 }
 
 .title-link a, .nav-links a {
-    color: #fdebf3;
+    color: #F2F0F0;
     text-decoration: none;
 }
 
 .title-link a:hover, .nav-links a:hover, a:focus {
-    text-decoration: underline #375a7f;
+    text-decoration: underline #F2F0F0;
     text-decoration-thickness: 2px;
     text-underline-offset: 6px;
 }
@@ -90,7 +90,7 @@ p {
 }
 
 .foot-btn:hover {
-    border-color: #78c2ad;
+    border-color: #D98E73;
 }
 
 .light .foot-btn {
@@ -119,40 +119,50 @@ p {
 
 /* Theme Icon */
 html.light {
-    background-color: #fdebf3;
-    color: #1e1e2e;
+    background-color: #F2F0F0;
+    color: #2A4359;
+}
+
+.light h2 {
+    text-decoration: underline #2A4359;
 }
 
 .light .title-link a {
-    color: #1e1e2e;
+    color: #2A4359;
 }
 
-.light .card-title {
+.light .title-link a:hover, .nav-links a:hover, a:focus {
+    text-decoration: underline #2A4359;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 6px;
+}
+
+/* .light .card-title {
     color: #1e1e2e; 
 }
 
 .light .card-txt {
     color: #1e1e2e; 
-}
+} */
 
 .light .nav-links a {
-    color: #1e1e2e;
+    color: #2A4359;
 }
 
-.light .link-card > a {
+/* .light .link-card > a {
     color: #1e1e2e; 
-}
+} */
 
 .light .button {
-    color: #1e1e2e;
+    color: #2A4359;
 }
 
 .light .button:hover {
-    color: #fdebf3;
+    color: #B0B5BF;
 }
 
 .light .foot-btn:hover {
-	border-color: #78c2ad;
+	border-color: #D98E73;
 }
 
 .light .git-icon {
@@ -167,9 +177,9 @@ html.light {
     content: url("/li-in.png");
 }
 
-.light .page-link {
-    color: #375a7f;
-}
+/* .light .page-link {
+    color: #D93D04;
+} */
 
 /* Media Query */
 @media only screen and (max-width: 600px) {
