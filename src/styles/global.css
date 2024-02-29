@@ -64,7 +64,7 @@ p {
 }
 
 .title-link a:hover, .nav-links a:hover, a:focus {
-    text-decoration: underline #F2F0F0;
+    text-decoration: underline #BF9F63;
     text-decoration-thickness: 2px;
     text-underline-offset: 6px;
 }
@@ -86,7 +86,7 @@ p {
     height: 20px;
     width: 20px;
     border-radius: 50%;
-    border: 2px solid #fdebf3;
+    border: 2px solid #F2F0F0;
 }
 
 .foot-btn:hover {
@@ -131,11 +131,11 @@ html.light {
     color: #2A4359;
 }
 
-.light .title-link a:hover, .nav-links a:hover, a:focus {
+/* .light .title-link a:hover, .nav-links a:hover, a:focus {
     text-decoration: underline #2A4359;
     text-decoration-thickness: 2px;
     text-underline-offset: 6px;
-}
+} */
 
 /* .light .card-title {
     color: #1e1e2e; 
