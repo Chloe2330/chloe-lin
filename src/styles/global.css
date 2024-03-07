@@ -64,7 +64,7 @@ p {
 }
 
 .title-link a:hover, .nav-links a:hover, a:focus {
-    text-decoration: underline #D9C27E;
+    text-decoration: underline #BF9F63;
     text-decoration-thickness: 2px;
     text-underline-offset: 6px;
 }
@@ -109,14 +109,6 @@ p {
     content: url("/li-in-white.png");
 }
 
-/* Card listing */
-.link-card-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
-    gap: 1rem;
-    padding: 0;
-}
-
 /* Theme Icon */
 html.light {
     background-color: #F2F0F0;
@@ -137,28 +129,12 @@ html.light {
     text-underline-offset: 6px;
 } */
 
-/* .light .card-title {
-    color: #1e1e2e; 
-}
-
-.light .card-txt {
-    color: #1e1e2e; 
-} */
-
 .light .nav-links a {
     color: #2A4359;
 }
 
-/* .light .link-card > a {
-    color: #1e1e2e; 
-} */
-
-.light .button {
-    color: #2A4359;
-}
-
-.light .button:hover {
-    color: #B0B5BF;
+.light .captions{
+    background-color: #D98E73
 }
 
 .light .foot-btn:hover {
@@ -176,10 +152,6 @@ html.light {
 .light .linked-in {
     content: url("/li-in.png");
 }
-
-/* .light .page-link {
-    color: #D93D04;
-} */
 
 /* Media Query */
 @media only screen and (max-width: 600px) {
