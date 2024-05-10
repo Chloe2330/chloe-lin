@@ -1,7 +1,3 @@
 # 🌌 Chloe's Website
-This website is built off [milky-way](https://github.com/ttomczak3/Milky-Way), an open-source Astro template. 
+I try to update [this website](https://chloe-lin.netlify.app/) a couple times a year. 
 
-Work in Progress...⌛
-
-## Todos
-- Fill in experience  
